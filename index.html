@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>GAYLE'S CAFE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row clearfix">
+                <img src="img/2.webp" alt="" class="logo">
+                <ul class="main" id="check" >
+                    <li><a href="#">CAKE DELIVERY</a></li>
+                       <li><a href="#">ORDERS</a></li>
+                          <li><a href="#">CHECK MORE</a></li>
+                             <li><a href="#">SIGN UP</a></li>
+                </ul>
+                <a href="#" class="mobile" onclick="sideshow()"><i class="fa-solid fa-bars"></i></a>
+            </div>
+        </nav>
+        <div class="content">
+        <h1>WELCOME TO <span>GAYLE'S CAFE</span>. <br> HOUSE OF CAKE LOVERS</h1>
+        <a href="#" class="btn btn-full">CLICK TO ORDER</a>
+           <a href="#" class="btn btn-nav">SHOW MORE</a>
+    </div>
+    </header>
+
+    <script>
+        function slideshow(){
+var x=document.getElementById('check');
+if(x.style.display===none){
+    x.style.display="block";
+}
+else{
+    x.style.display="none";
+}
+        }
+    </script>
+</body>
+</html>
